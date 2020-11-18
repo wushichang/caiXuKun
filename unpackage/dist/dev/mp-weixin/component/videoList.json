@@ -1,0 +1,8 @@
+{
+  "component": true,
+  "usingComponents": {
+    "video-player": "/component/videoPlayer",
+    "video-desc": "/component/videoDesc",
+    "tools": "/component/tools"
+  }
+}

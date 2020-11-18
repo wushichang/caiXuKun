@@ -1,0 +1,45 @@
+
+.concernTop {
+	width: 100%;
+	/* background-color: #000000; */
+	position: fixed;
+	top: 25px;
+	left: 0;
+	height: 35px;
+	line-height: 35px;
+	/* 担心被视频组件覆盖 */
+	z-index: 1;
+}
+.ground {
+	height: 72px;
+	width: 100%;
+}
+.iconcamera1 {
+	width: 24%;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.iconcamera1>text {
+	margin-left: 8px;
+}
+.middle {
+	text-align: center;
+	color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.middle>navigator {
+	padding: 0 10px;
+}
+.tabClicked {
+	border-bottom: 2px solid #F0AD4E;
+}
+
+

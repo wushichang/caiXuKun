@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "change-city-top": "/component/changeCityTop",
+    "city-list": "/component/cityList",
+    "alphabet": "/component/alphabet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tab": "/component/tab",
+    "personal-top": "/component/personalTop",
+    "video-list2": "/component/videoList2",
+    "concern-list": "/component/concernList"
+  }
+}

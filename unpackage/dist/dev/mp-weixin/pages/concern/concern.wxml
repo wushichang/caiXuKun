@@ -1,0 +1,1 @@
+<view class="concern"><concern-top vue-id="bff0e084-1" page="{{page}}" bind:__l="__l"></concern-top><concern-list vue-id="bff0e084-2" page="{{page}}" bind:__l="__l"></concern-list><tab vue-id="bff0e084-3" bind:__l="__l"></tab></view>

@@ -1,0 +1,1 @@
+<view class="descriptionContainer"><view class="author">{{"@"+video.author}}</view><view class="title">{{video.title}}</view><view class="music"><view>欧巴，擦浪黑油。哈哈哈哈哈哈哈。</view></view></view>

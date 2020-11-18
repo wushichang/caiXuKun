@@ -1,0 +1,1 @@
+<view class="topNav"><view class="iconfont iconsousuo"></view><view class="middle"><navigator open-type="switchTab" url="../index/index">推荐</navigator><navigator open-type="navigate" url="../city/city">同城</navigator></view></view>

@@ -1,0 +1,78 @@
+
+.box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+}
+.icon-item {
+	font-size: 12px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 60px;
+}
+.icon-item>view {
+	line-height: 24px;
+}
+.img {
+	width: 32px;
+	height: 32px;
+	-webkit-border-radius: 5px;
+	        border-radius: 5px;
+}
+.newsList{
+	padding: 16px 12px;
+	color: #FFFFFF;
+}
+.author {
+	float: left;
+	padding: 0 10px;
+}
+.author-img {
+	width: 42px;
+	height: 42px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.author-name {
+	font-size: 16px;
+}
+.date {
+	font-size: 10px;
+	color: #AAAAAA;
+}
+.desc {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	        align-items: flex-start;
+}
+.detail {
+	font-size: 12px;
+	line-height: 24px;
+}
+.noMore {
+	height: 48px;
+	line-height: 48px;
+	font-size: 12px;
+	text-align: center;
+}
+
+

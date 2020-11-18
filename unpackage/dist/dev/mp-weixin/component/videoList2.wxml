@@ -1,0 +1,1 @@
+<view class="videoList2"><block wx:for="{{3}}" wx:for-item="item" wx:for-index="index"><view class="item"><video class="video" src="{{'http://192.168.147.1:8080/video/'+(index+1)+'.mp4'}}" objectFit="cover" controls="{{true}}"></video><view class="iconfont iconxihuan">123</view></view></block></view>

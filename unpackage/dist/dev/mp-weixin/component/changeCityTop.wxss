@@ -1,0 +1,27 @@
+
+.top {
+	height: 80px;
+	width: 100%;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #000000;
+	position: fixed;
+}
+.space {
+	height: 80px;
+	width: 100%;
+}
+.iconicon- {
+	line-height: 80px;
+	color: #AAAAAA;
+	position: absolute;
+}
+.changeText {
+	line-height: 80px;
+	/* 和默认图标的大小一样iconfont */
+	font-size: 16px;
+}
+
+
+
+

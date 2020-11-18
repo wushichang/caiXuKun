@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "top-nav": "/component/topNav",
+    "city-content": "/component/cityContent",
+    "tab": "/component/tab"
+  }
+}

@@ -1,0 +1,114 @@
+
+.concernList {
+	color: #FFFFFF;
+	padding: 0 15px 60px 15px;
+	height: 100%;
+}
+.scrollView {
+	height: 100%;
+}
+.top {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.img-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.author {
+	margin-left: 10px;
+}
+.img {
+	width: 36px;
+	height: 36px;
+	-webkit-border-radius: 50%;
+	        border-radius: 50%;
+}
+.title {
+	line-height: 48px;
+}
+.video-box {
+	height: 256px;
+}
+.box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	font-size: 12px;
+}
+.date {
+	background-color: #AAAAAA;
+	line-height: 15px;
+	padding: 0px 8px;
+}
+.operators {
+	width: 50%;
+}
+.operators>text {
+	font-size: 12px;
+}
+.iconfont {
+	font-size: 15px;
+	word-break: keep-all;
+}
+.sum {
+	font-size: 10px;
+	line-height: 28px;
+}
+.iconbianji-01 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.music-box {
+	width: 120px;
+	font-size: 12px;
+	overflow: hidden;
+}
+.music {
+	width: 160px;
+	-webkit-animation: song 4s linear infinite;
+	        animation: song 4s linear infinite;
+}
+@-webkit-keyframes song{
+from{
+		-webkit-transform: translateX(80%);
+		        transform: translateX(80%);
+}
+to{
+		-webkit-transform: translateX(-80%);
+		        transform: translateX(-80%);
+}
+}
+@keyframes song{
+from{
+		-webkit-transform: translateX(80%);
+		        transform: translateX(80%);
+}
+to{
+		-webkit-transform: translateX(-80%);
+		        transform: translateX(-80%);
+}
+}
+
+

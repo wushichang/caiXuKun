@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "concern-top": "/component/concernTop",
+    "concern-list": "/component/concernList",
+    "tab": "/component/tab"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "tab": "/component/tab",
+    "top-of-news": "/component/topOfNews",
+    "news-content": "/component/newsContent"
+  }
+}

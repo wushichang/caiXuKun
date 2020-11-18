@@ -1,0 +1,1 @@
+<view><navigator class="top"><navigator class="iconfont iconicon-" open-type="navigateBack" url="../city/city"></navigator><view class="changeText">切换城市</view></navigator><view class="space"></view></view>

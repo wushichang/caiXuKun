@@ -1,0 +1,29 @@
+
+.videoList2{
+	padding-bottom: 64px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.item {
+	position: relative;
+	width: 33.33%;
+}
+.video {
+	width: 100%;
+}
+.iconxihuan {
+	font-size: 15px;
+	color: #FFFFFF;
+	position: absolute;
+	bottom: 8px;
+	left: 8px;
+}
+
+

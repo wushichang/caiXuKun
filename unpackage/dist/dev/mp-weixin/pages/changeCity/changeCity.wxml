@@ -1,0 +1,1 @@
+<view class="changeCity"><change-city-top vue-id="c4019d40-1" bind:__l="__l"></change-city-top><city-list vue-id="c4019d40-2" cities="{{cities}}" initial="{{initial}}" bind:__l="__l"></city-list><alphabet vue-id="c4019d40-3" cities="{{cities}}" data-event-opts="{{[['^clickInitial',[['clickInitial']]]]}}" bind:clickInitial="__e" bind:__l="__l"></alphabet></view>

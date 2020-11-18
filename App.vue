@@ -1,0 +1,110 @@
+<script>
+	export default {
+		onLaunch: function() {
+			console.log('App Launch')
+			uni.hideTabBar({
+				success: (res) => {
+					console.log('隐藏tab页面成功',res);
+				},
+				fail: (erro) => {
+					console.log('隐藏tab页面失败',erro);
+				}
+			});
+		},
+		onShow: function() {
+			console.log('App Show')
+		},
+		onHide: function() {
+			console.log('App Hide')
+		}
+	}
+</script>
+
+<style>
+	/*每个页面公共css */
+	page {
+		height: 100%;
+	}
+	
+	/* 阿里图标  start */
+	
+	@font-face {
+	  font-family: "iconfont";
+	  src: url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2');
+	}
+	
+	.iconfont {
+	  font-family: "iconfont" !important;
+	  font-size: 16px;
+	  font-style: normal;
+	  -webkit-font-smoothing: antialiased;
+	  -moz-osx-font-smoothing: grayscale;
+	}
+	
+	.iconaixin:before {
+	  content: "\e61b";
+	}
+	
+	.iconxiangji:before {
+	  content: "\e614";
+	}
+	
+	.iconicon_play:before {
+	  content: "\e60f";
+	}
+	
+	.iconbianji-01:before {
+	  content: "\e61f";
+	}
+	
+	.iconshenglve:before {
+	  content: "\e603";
+	}
+	
+	.iconcamera1:before {
+	  content: "\e61a";
+	}
+	
+	.iconicon-:before {
+	  content: "\e602";
+	}
+	
+	.icondingwei:before {
+	  content: "\e63e";
+	}
+	
+	.iconjinru:before {
+	  content: "\e647";
+	}
+	
+	.iconicon-test:before {
+	  content: "\e61e";
+	}
+	
+	.icontubiaozhizuo-:before {
+	  content: "\e60e";
+	}
+	
+	.iconzhuanfa:before {
+	  content: "\e6cf";
+	}
+	
+	.iconxihuan:before {
+	  content: "\e619";
+	}
+	
+	.iconsousuo:before {
+	  content: "\e633";
+	}
+	
+	.icontianjia:before {
+	  content: "\e607";
+	}
+	
+	.iconfanhui:before {
+	  content: "\e646";
+	}
+	
+	/* 阿里图标  end */
+	
+</style>

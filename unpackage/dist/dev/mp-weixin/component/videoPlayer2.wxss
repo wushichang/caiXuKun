@@ -1,0 +1,12 @@
+
+.video {
+	width: 80%;
+}
+.iconicon_play {
+	color: #FFFFFF;
+	font-size: 20px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+}
+

@@ -1,0 +1,12 @@
+
+page {
+	background-color: #000000;
+}
+.personal {
+	
+	height: 100%;
+}
+.concernList {
+	height: 100%;
+}
+
