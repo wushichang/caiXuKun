@@ -9,7 +9,10 @@
 				<image src="../static/img/haha.jpg" class="head-img"></image>
 			</view>
 			<view class="information-tools">
-				<view class="editInformation">编辑资料</view>
+				<navigator v-if="page === 'personal'" class="editInformation" open-type="navigate" url="../editPersonalInformation/editPersonalInformation">编辑资料</navigator>
+				<view v-else :class="['editInformation',{'concern':concernStatus}]" @click="concern">
+					<icon v-show="concernStatus" class="iconfont icontianjia"></icon>关注
+				</view>
 			</view>
 		</view>
 
@@ -47,12 +50,14 @@
 
 <script>
 	export default{
+		props: ['uploader','page'],
 		data(){
 			return {
 				production: true,
 				dynamicState: false,
 				enjoy: false,
-				choosedTabValue: 'production'
+				choosedTabValue: 'production',
+				concernStatus: false
 			}
 		},
 		methods: {
@@ -77,6 +82,9 @@
 						this.choosedTabValue = 'enjoy';
 					break;
 				}
+			},
+			concern(){
+				this.concernStatus = !this.concernStatus;
 			}
 		},
 		watch: {
@@ -193,6 +201,12 @@
 	.tabChoosed {
 		border-bottom: 2px solid #F0AD4E;
 	}
+	
+	.concern {
+		background-color: #FF0000;
+	}
+	
+	
 	
 	
 	

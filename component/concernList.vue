@@ -62,6 +62,11 @@
 					url:'http://192.168.147.1:8080/videoList',
 					success: (res) => {
 						this.list = this.page=='friend'? res.data.slice(3):res.data.slice(0,3);
+						// 把视频数据放到缓存中，给videoSwiper使用
+						uni.setStorage({
+							key: 'videoList',
+							data: this.list
+						})
 					}
 				})
 			},

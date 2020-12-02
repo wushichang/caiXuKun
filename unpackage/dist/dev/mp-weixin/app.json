@@ -1,12 +1,16 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/concern/concern",
+    "pages/editPersonalInformation/editPersonalInformation",
     "pages/personal/personal",
     "pages/news/news",
     "pages/friend/friend",
-    "pages/concern/concern",
-    "pages/index/index",
     "pages/changeCity/changeCity",
-    "pages/city/city"
+    "pages/city/city",
+    "pages/changeName/changeName",
+    "pages/videoSwiper/videoSwiper",
+    "pages/uploader/uploader"
   ],
   "subPackages": [],
   "window": {
@@ -35,5 +39,6 @@
       }
     ]
   },
-  "usingComponents": {}
+  "usingComponents": {},
+  "sitemapLocation": "sitemap51.json"
 }

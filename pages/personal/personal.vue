@@ -1,6 +1,6 @@
 <template>
 	<view class="personal">
-		<personal-top @tabValueChange="tabValueChange"></personal-top>
+		<personal-top :page='page' @tabValueChange="tabValueChange"></personal-top>
 		<view v-show="tabValue === 'production'">
 			<video-list2></video-list2>
 		</view>
@@ -23,7 +23,8 @@
 	export default {
 		data() {
 			return {
-				tabValue: 'production'
+				tabValue: 'production',
+				page: 'personal'
 			}
 		},
 		methods: {

@@ -1,18 +1,16 @@
 <template>
 	<view>
 		<view>
-			
 			<video 
 			id="myVideo" 
 			class="video" 
 			:src="'http://192.168.147.1:8080/video/'+video.src" 
 			:loop="true" 
 			:controls="false" 
-			:autoplay="index === 0"
+			:autoplay="playState"
 			@error="error"
 			@click="videoClick">
 			</video>
-			
 		</view>
 	</view>
 </template>
@@ -20,7 +18,7 @@
 <script>
 	var timer = null;
 	export default {
-		props: ['video','index'],
+		props: {'video':Object,'index':Number,'current':Number},
 		data() {
 			return {
 				playState: false,
@@ -68,13 +66,13 @@
 			}
 		},
 		created() {
-			this.playState = this.index === 0;
+			// 满满的智慧
+			if(this.current === this.index){
+				this.playState = true;
+			}
 		},
 		onReady() {
 			this.videoContext = uni.createVideoContext('myVideo',this);
-		},
-		onLoad() {
-			
 		}
 	}
 </script>

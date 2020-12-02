@@ -1,6 +1,6 @@
 <template>
 	<view class="videoList2">
-		<view class="item" v-for="(item,index) in 3">
+		<view class="item" v-for="(item,index) in 3" :key="index">
 			<video 
 			:src="'http://192.168.147.1:8080/video/'+(index+1)+'.mp4'" 
 			objectFit="cover" 

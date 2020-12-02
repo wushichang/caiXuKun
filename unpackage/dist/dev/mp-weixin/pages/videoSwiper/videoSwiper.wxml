@@ -1,0 +1,1 @@
+<view class="videoSwiper"><view data-event-opts="{{[['tap',[['click',['$event']]]]]}}" class="iconfont iconfanhui" bindtap="__e"></view><video-list vue-id="b2bf31d0-1" videos="{{list}}" current="{{current}}" bind:__l="__l"></video-list><view class="tips">说两句撒</view></view>

@@ -1,0 +1,22 @@
+
+.videoSwiper {
+	height: 100%;
+	position: relative;
+}
+.iconfanhui {
+	position: absolute;
+	z-index: 1;
+	color: #ffffff;
+	top: 24px;
+	left: 12px;
+}
+.tips {
+	position: absolute;
+	z-index: 1;
+	color: #444444;
+	bottom: 24px;
+	left: 12px;
+}
+
+
+

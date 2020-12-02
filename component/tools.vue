@@ -1,7 +1,7 @@
 <template>
 	<view class="tools">
 		<view class="uploaderInfo">
-			<image class="img headIcon" src="../static/img/haha.jpg"></image>
+			<image class="img headIcon" src="../static/img/haha.jpg" @click="goUploaderPage"></image>
 			<view class="iconfont icontianjia concern" @click="concern" v-show="!concernedState"></view>
 		</view>
 		<view class="iconfont iconxihuan operation" @click="giveLike" :style="likeStyle"></view>
@@ -34,6 +34,11 @@
 			},
 			doubleClick(){
 				this.likeStyle = 'color:#ff0000';
+			},
+			goUploaderPage(){
+				uni.navigateTo({
+					url: '../uploader/uploader'
+				})
 			}
 		}
 	}

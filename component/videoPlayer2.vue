@@ -7,8 +7,9 @@
 		:loop="true" 
 		:controls="false"
 		objectFit="cover"
-		:autoplay="index === 0">
-			<icon class="iconfont iconicon_play" @click="click"></icon>
+		:autoplay="index === 0"
+		@click="blowUp(index)">
+			<icon class="iconfont iconicon_play" @click.stop="click"></icon>
 		</video>
 	</view>
 </template>
@@ -42,6 +43,11 @@
 					this.videoContext.play();
 					this.playStatus = true;
 				}
+			},
+			blowUp(index){
+				uni.navigateTo({
+					url: '../videoSwiper/videoSwiper?current='+index
+				})
 			}
 		},
 		onReady() {

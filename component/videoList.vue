@@ -1,9 +1,9 @@
 <template>
 	<view>
 		<view>
-			<swiper class="swiper" vertical="true" @change="change" @touchstart="touchStart" @touchend="touchEnd">
+			<swiper class="swiper" vertical="true" @change="change" @touchstart="touchStart" @touchend="touchEnd" :current="current || 0">
 				<swiper-item  v-for="(video,index) in videos" :key="video.id">
-					<video-player ref="player" :video="video" @doubleClick = "doubleClick(index)" :index = "index"></video-player>
+					<video-player ref="player" :video="video" @doubleClick = "doubleClick(index)" :index = "index" :current="current"></video-player>
 					<video-desc :video="video"></video-desc>
 					<tools ref="tools" :video="video"></tools>
 				</swiper-item>
@@ -20,7 +20,7 @@
 	var swiperTimeout = null;//定时器
 	
 	export default {
-		props: ['videos'],
+		props: ['videos','current'],
 		data(){
 			return {
 				startClientY: 0,

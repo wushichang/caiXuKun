@@ -1,0 +1,20 @@
+
+page {
+	background-color: #000000;
+}
+.personal {
+	height: 100%;
+	position: relative;
+}
+.concernList {
+	height: 100%;
+}
+.iconfanhui {
+	color: #FFFFFF;
+	position: absolute;
+	top: 24px;
+	left: 12px;
+}
+
+
+
